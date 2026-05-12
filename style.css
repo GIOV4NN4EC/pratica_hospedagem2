@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.filtros {
+    text-align: center;
+    margin: 20px;
+}
+
+#projetos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Tema escuro */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .card {
+    background: #1e1e1e;
+}
