@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Meu Portfólio</h1>
+    <button id="toggleTheme">🌙</button>
+</header>
+
+<section class="filtros">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('web')">Web</button>
+    <button onclick="filtrar('c')">C</button>
+</section>
+
+<section id="projetos">
+    <div class="card web">Site em HTML</div>
+    <div class="card c">Sistema em C</div>
+    <div class="card web">App React</div>
+</section>
+
+<section class="contato">
+    <h2>Contato</h2>
+    <input type="text" placeholder="Seu nome">
+    <input type="email" placeholder="Seu email">
+    <textarea placeholder="Mensagem"></textarea>
+    <button onclick="enviar()">Enviar</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
